@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <Company>PaatyDSM Apps</Company>
+    <Authors>PaatyDSM Apps</Authors>
+    <PackageLicenseExpression>AGPL-3.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/PaatyDSM/MisHorarios_cspfm</RepositoryUrl>
+    <RepositoryType>public</RepositoryType>
+    <PackageTags>Mis Horarios SBX BK</PackageTags>
+    <PackageProjectUrl>https://github.com/PaatyDSM/MisHorarios_cspfm</PackageProjectUrl>
+    <Description>Consulta tus horarios laborales ingresando tu número de legajo.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1821" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
+  </ItemGroup>
+</Project>
